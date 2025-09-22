@@ -1,0 +1,99 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color:#c007b7;
+    color: #f7def5;
+}
+
+.secao {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #8d9efd;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(213, 212, 250, 0.1);
+}
+
+h1, h2, h3 {
+    color: #b1d3f8;
+}
+
+
+#cabecalho {
+    background-color: #87bbf3;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#menu {
+    display: flex; 
+    justify-content: center; 
+    gap: 15px; 
+    margin-top: 10px;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+#menu a:hover {
+    color: #f15be5;
+}
+
+
+.lista-habilidades {
+    list-style: none;
+    padding: 0;
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 10px; 
+}
+
+.lista-habilidades li {
+    background-color: #0c0c0c;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 0.9em;
+}
+
+
+#contato {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.icones-contato a {
+    color: rgb(10, 10, 10);
+    font-size: 1.5em;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.icones-contato a:hover {
+    color: #007bff;
+}
+
+
+@media (max-width: 600px) {
+    body {
+        font-size: 14px; 
+    }
+
+    #cabecalho {
+        padding: 15px;
+    }
+
+    #menu {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
